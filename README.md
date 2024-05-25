@@ -1,0 +1,1 @@
+# Docker_Essencial_Plataforma_.NET
