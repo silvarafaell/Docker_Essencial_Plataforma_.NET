@@ -7,4 +7,7 @@ padronizada(container) para desenvolvimento de software que poderá ser executad
 - O Docker chama de conteiner um espaço reservado na memoria que é executado independentemente e isoladamente de outros conteineres ou do proprio
 host
 
-##
+# Criando Contêineres
+- Criar um contêiner no docker
+  - docker container run <imagem>
+  - docker container run hello-world
