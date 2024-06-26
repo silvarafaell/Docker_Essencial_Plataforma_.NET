@@ -28,5 +28,7 @@ host
 - docker image pull alpine - baixa a imagem local
 - docker container run alpine ls -l(comando executado dentro do container)
 - docker container run -it alpine /bin/sh - Modo interativo e abre terminal dentro do container
+- docker container run --name ws1 -p 9080:80 nginx - Mapeando portas
+- docker container run --name ws1 -p 9080:80 -d nginx - Executar em segundo plano
 
 
