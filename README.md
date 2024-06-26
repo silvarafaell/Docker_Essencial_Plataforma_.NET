@@ -23,5 +23,10 @@ host
 - docker container ps - exibe os containers em execução
 - docker container ps -a - exibe todos os containers
 - docker container run hello-world
+- docker images
+- docker container os -a
+- docker image pull alpine - baixa a imagem local
+- docker container run alpine ls -l(comando executado dentro do container)
+- docker container run -it alpine /bin/sh - Modo interativo e abre terminal dentro do container
 
 
