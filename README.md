@@ -19,4 +19,9 @@ host
   - Cria o container
   - Inicializa o container
   - Uso do modo interativo
+- Hello-world é a imagem existente
+- docker container ps - exibe os containers em execução
+- docker container ps -a - exibe todos os containers
+- docker container run hello-world
+
 
