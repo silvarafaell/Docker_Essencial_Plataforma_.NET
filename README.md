@@ -30,5 +30,18 @@ host
 - docker container run -it alpine /bin/sh - Modo interativo e abre terminal dentro do container
 - docker container run --name ws1 -p 9080:80 nginx - Mapeando portas
 - docker container run --name ws1 -p 9080:80 -d nginx - Executar em segundo plano
+- docker container run --name demonet -it mcr.microsoft.com/dotnet/sdk:2.1 - Modo iterativo e abre o terminal
+  - mkdir demo
+  - cd demo
+  - dotnet new console
+  - dotnet build
+  - dotnet run
+  - docker image ls
+  - docker container start -ia demonet
+  - docker images
+  - docker container os -a
+  - docker container prune - Limpa todos os containers
+  - docker images
+  - docker image rm id(id da imagem)
 
 
