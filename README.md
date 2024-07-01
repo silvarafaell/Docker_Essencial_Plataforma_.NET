@@ -52,5 +52,11 @@ host
 - Criar imagem
   - Usando o Dockerfile
   - Usando o comando commit
-- Dockerfile é um arquivo texto com instruções, comandos e passos que é executando através do comando build para gerar uma imagem(docker build -t <imagem>)  
+- Dockerfile é um arquivo texto com instruções, comandos e passos que é executando através do comando build para gerar uma imagem(docker build -t <imagem>)
+- Criando imagens usando o Dockerfile
+  -  O Docker constrói imagens automaticamente lendo as instruções a partir de um arquivo texto chamado Dockerfile
+  -  O Docker file contém todos os comandos em ordem necessários para criar uma imagem. É neste arquivo que definimos todas as regras, informações e instruções que estão contidas mas imagens
+  -  docker build -t franciscorafael/img:1.0 .
+  -  docker images
+  -  docker container run -d -p 8088:88 --name=ws5 franciscorafael/img:1.0
 
