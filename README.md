@@ -59,4 +59,12 @@ host
   -  docker build -t franciscorafael/img:1.0 .
   -  docker images
   -  docker container run -d -p 8088:88 --name=ws5 franciscorafael/img:1.0
+- Gerenciando Imagens
+  - docker images
+  - docker image --help
+  - docker image pull --help
+  - docker image pull redis - baixa a imagem latest do dockerhub
+  - docker image list
+  - docker image tag redis:latest redis:mac
+  - docker image prune - remove todas as imagens
 
