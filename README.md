@@ -44,4 +44,13 @@ host
   - docker images
   - docker image rm id(id da imagem)
 
+### Imagens
+- Os contêineres do Docker são baseados em imagens do docker
+- Um contêiner sempre começa com uma imagem e é considerado uma instanciação dessa imagem
+- A imagem seria a classe e contêiner os objetos da classe
+- Uma imagem do Docker é um binário que inclui todos os requisitos para a criação e execução de um único contêiner do Docker, bem como metadados que descrevem suas necessidades e capacidades, incluindo o código do aplicativo dentro do contêiner e suas configurações
+- Criar imagem
+  - Usando o Dockerfile
+  - Usando o comando commit
+- Dockerfile é um arquivo texto com instruções, comandos e passos que é executando através do comando build para gerar uma imagem(docker build -t <imagem>)  
 
