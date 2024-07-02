@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = mvc1
+build_property.ProjectDir = C:\Projetos\Docker_Essencial_Plataforma_.NET\Imagens\Criando aplicação ASP.NET Core MVC\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
