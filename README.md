@@ -1,3 +1,4 @@
+
 # Docker Essencial Plataforma .NET - Udemy 
 
 - Docker - Uma plataforma que permite criar, enviar e executar qualquer aplicativo, em qualquer lugar.
@@ -67,4 +68,10 @@ host
   - docker image list
   - docker image tag redis:latest redis:mac
   - docker image prune - remove todas as imagens
+- Criar Imagem para a Aplicação ASP.NET Core MVC
+  - 1 Publica a aplicacao
+    - dotnet publish --configuration Release --output dist   - Publica a aplicação
+    - configuration Release   - Indica que estamos usando o modo Release que é o modo usado na produção
+    - output dist       - Indica que o projeto compilado será copiado para uma pasta dist
+  - Criar arquivo Dockerfile (no raiz da app)
 
