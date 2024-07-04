@@ -73,5 +73,22 @@ host
     - dotnet publish --configuration Release --output dist   - Publica a aplicação
     - configuration Release   - Indica que estamos usando o modo Release que é o modo usado na produção
     - output dist       - Indica que o projeto compilado será copiado para uma pasta dist
-  - Criar arquivo Dockerfile (no raiz da app)
+  - 2 Criar arquivo Dockerfile (no raiz da app)
+    - Denifir uma imagem base
+    - Definir informações para a imagem
+    - Definir a pasta de trabalho (/app)
+    - Copiar os arquivos da pasta dist para uma pasta no contêiner (/app)
+    - Expor a porta do contêiner e definir em qual porta o servidor vai atender
+    - Definir o ponto de entrada a aplicação
+  - 3 Criar a imagem
+    - docker build -t aspnetcoremvc/app1:1.0 .
+    - docker build - O comando
+    - -t - O parâmetro usado para informar que a imagem pertence ao usuário
+    - aspnetcoremvc/app1:1.0 - O nome da imagem e a tag distribuída a imagem
+    - . - o diretório atual (pois dei o build dentro da pasta do Dockerfile)
+    - docker images
+    - docker contêiner -a
+  - 4 Criar contêiner
+    - docker container create -p 3000:80 --name mvcprodutos aspnetcoremvc/app1:1.0 - criar container a partir da imagem
+    - docker container start mvcprodutos   -- Vai subir como se estivesse executando o projeto
 
