@@ -91,4 +91,18 @@ host
   - 4 Criar contêiner
     - docker container create -p 3000:80 --name mvcprodutos aspnetcoremvc/app1:1.0 - criar container a partir da imagem
     - docker container start mvcprodutos   -- Vai subir como se estivesse executando o projeto
-
+- Criar imagem ASP.NET Core MVC Ajuste .NET 6
+   - 1 Publicar a aplicação na pasta dist
+     - dotnet publish --configuration Release --output dist
+   - 2 Criar arquivo Dockerfle
+     - Usar imagem do runtime da ASP.NET Core 6
+     - mcr.microsoft.com/dotnet/aspnet:6.0
+     - FROM mcr.microsoft.com/dotnet/aspnet:6.0
+   - 3 Criar imagem da aplicação MVC a partir do Dockerfile
+     - docker build -t aspnetcoremvc/app1:1.0 .
+     - docker images ls
+   - 4 Criar o container a partir da imagem
+     - docker container create -p 3000:80 --name mvcprodutos aspnetcoremvc/app1:1.0
+   - 5 Iniciar o container
+     - docker container start mvcprodutos
+     - http://localhost:3000 - Abrir no navegador
