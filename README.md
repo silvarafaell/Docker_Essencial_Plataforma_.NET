@@ -106,3 +106,17 @@ host
    - 5 Iniciar o container
      - docker container start mvcprodutos
      - http://localhost:3000 - Abrir no navegador
+- Publicar Imagens
+  - 1 Criar uma conta do Docker Hub
+    - http://hub.docker.com
+  - 2 Preparar a imagem (tagear a imagem) para ser enviada
+    - docker image tag img franciscorafael/nome:versão
+    - docker image tag aspnetcoremvc/app1:1.0 franciscorafaell/mvcprodutos:1.0
+    - docker image ls
+  - 3 Se logar na sua conta no repositório
+    - docker login -u <usurio> -p <senha>
+    - docker login -u franciscorafaell
+  - 4 Enviar a imagem para o repositório
+    - docker image push   - imagem repositório
+    - docker image push franciscorafaell/mvcprodutos:1.0
+    
