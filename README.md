@@ -140,3 +140,11 @@ host
   - create database testedb;
   - show databases;
 
+- Ajustar Aplicação MVC com EF Core e acessar MySQL
+  - dotnet add package Pomelo.EntityFrameworkCore.MySql
+  - dotnet add package Pomelo.EntityFrameworkCore.MySql.Design
+  - dotnet add package Microsoft.EntityFramework.Tools
+  - criação do arquivo de contexto
+  - criação classe Repository
+
+
