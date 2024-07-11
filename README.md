@@ -125,4 +125,18 @@ host
 - Eles permitem que dados importantes existam fora do contêiner, o que significa que você pode substituir um contêiner sem perder os dados que ele criou
 - Criar Volume
   - docker container run -v <pasta_host>:<pasta_container> imagem
+- Criando Volumes: DataBase MySQL
+  - docker volume create <nome>
+  - docker volume ls
+  - docker volume create dadosdb
+  - docker volume ls
+  - docker image pull mysql:5.7
+  - docker image ls
+  - docker image inspect mysql:5.7
+  - docker container run -d --name mysql -v dadosdb:/var/lib/mysql -e MYSQL_ROOT_PASSWORD=numsey mysql:5.7
+  - docker container exec -it mysql /bin/bash
+  - mysql -u root -p
+  - show databases;
+  - create database testedb;
+  - show databases;
 
