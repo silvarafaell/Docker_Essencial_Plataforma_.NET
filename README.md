@@ -119,4 +119,10 @@ host
   - 4 Enviar a imagem para o repositório
     - docker image push   - imagem repositório
     - docker image push franciscorafaell/mvcprodutos:1.0
-    
+
+### Volumes
+- Os Volumes separam os arquivos de dados que são gerados por um aplicativo ou banco de dados do restante do armazenamento do contêiner.
+- Eles permitem que dados importantes existam fora do contêiner, o que significa que você pode substituir um contêiner sem perder os dados que ele criou
+- Criar Volume
+  - docker container run -v <pasta_host>:<pasta_container> imagem
+
