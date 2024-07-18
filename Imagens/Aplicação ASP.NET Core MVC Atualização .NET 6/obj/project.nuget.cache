@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u/NkyzFyiOTEnHklQhmOaKVCJRssZ2QW2WtuL7DV2/urIsTPm6Oy+mX6tmUxuIXtyPa9bBEdNu7CGOhmsAf5zA==",
+  "dgSpecHash": "5ecmI6dNzEml1jGPW2nfRwBTotwbVnvv+SRJplM62UlEa8i7067FpD4nljb2bkSItSZZKC0kD0yEnNS7KHHFUg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Rafael\\Downloads\\mvc1-1.0\\mvc1.csproj",
+  "projectFilePath": "C:\\Projetos\\Docker_Essencial_Plataforma_.NET\\Imagens\\Aplicação ASP.NET Core MVC Atualização .NET 6\\mvc1.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

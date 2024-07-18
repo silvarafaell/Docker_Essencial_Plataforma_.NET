@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rafael\\Downloads\\mvc1-1.0\\mvc1.csproj",
+      "projectUniqueName": "C:\\Projetos\\Docker_Essencial_Plataforma_.NET\\Imagens\\Aplicação ASP.NET Core MVC Atualização .NET 6\\mvc1.csproj",
       "projectName": "mvc1",
-      "projectPath": "C:\\Users\\Rafael\\Downloads\\mvc1-1.0\\mvc1.csproj",
+      "projectPath": "C:\\Projetos\\Docker_Essencial_Plataforma_.NET\\Imagens\\Aplicação ASP.NET Core MVC Atualização .NET 6\\mvc1.csproj",
       "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rafael\\Downloads\\mvc1-1.0\\obj\\",
+      "outputPath": "C:\\Projetos\\Docker_Essencial_Plataforma_.NET\\Imagens\\Aplicação ASP.NET Core MVC Atualização .NET 6\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

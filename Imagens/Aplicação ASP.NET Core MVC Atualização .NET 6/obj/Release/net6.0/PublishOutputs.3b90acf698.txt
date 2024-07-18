@@ -1,0 +1,12 @@
+C:\Projetos\Docker_Essencial_Plataforma_.NET\Imagens\Aplicação ASP.NET Core MVC Atualização .NET 6\dist\mvc1.exe
+C:\Projetos\Docker_Essencial_Plataforma_.NET\Imagens\Aplicação ASP.NET Core MVC Atualização .NET 6\dist\dist\web.config
+C:\Projetos\Docker_Essencial_Plataforma_.NET\Imagens\Aplicação ASP.NET Core MVC Atualização .NET 6\dist\appsettings.Development.json
+C:\Projetos\Docker_Essencial_Plataforma_.NET\Imagens\Aplicação ASP.NET Core MVC Atualização .NET 6\dist\appsettings.json
+C:\Projetos\Docker_Essencial_Plataforma_.NET\Imagens\Aplicação ASP.NET Core MVC Atualização .NET 6\dist\dist\appsettings.Development.json
+C:\Projetos\Docker_Essencial_Plataforma_.NET\Imagens\Aplicação ASP.NET Core MVC Atualização .NET 6\dist\dist\appsettings.json
+C:\Projetos\Docker_Essencial_Plataforma_.NET\Imagens\Aplicação ASP.NET Core MVC Atualização .NET 6\dist\dist\mvc1.deps.json
+C:\Projetos\Docker_Essencial_Plataforma_.NET\Imagens\Aplicação ASP.NET Core MVC Atualização .NET 6\dist\dist\mvc1.runtimeconfig.json
+C:\Projetos\Docker_Essencial_Plataforma_.NET\Imagens\Aplicação ASP.NET Core MVC Atualização .NET 6\dist\mvc1.dll
+C:\Projetos\Docker_Essencial_Plataforma_.NET\Imagens\Aplicação ASP.NET Core MVC Atualização .NET 6\dist\mvc1.deps.json
+C:\Projetos\Docker_Essencial_Plataforma_.NET\Imagens\Aplicação ASP.NET Core MVC Atualização .NET 6\dist\mvc1.runtimeconfig.json
+C:\Projetos\Docker_Essencial_Plataforma_.NET\Imagens\Aplicação ASP.NET Core MVC Atualização .NET 6\dist\mvc1.pdb
