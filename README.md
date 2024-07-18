@@ -162,4 +162,15 @@ host
  - docker container run -it --name alp1 --network redealpine alpine         - Criar container e associar a rede
 - Escalando a aplicação MVC usando redes
   - docker container run -d --name appmvc2 -p 3500:00 -e DBHOST=172.17.0.2 produtosmvc/app:2.0
+- Criando e usando redes customizadas
+  - Limitações das Redes padrão(bridge)
+    - A primeira limitação é o processo inadequado de inspecionar a rede para obter o endereço IP do contêiner para realizar a configuração
+    - A segunda limitação é que todos os conteinere estão conectados a mesma rede, enquanto que as aplicações são em geral projetadas com múltiplas redes
+    - Podemos contornar essas limitações criando redes personalizadas em vez de usar a rede padrão
+  - docker network create <nome_rede>   - Cria rede personalizada
+  - docker container rm -f $(docker ps -aq) Para e remover todos os contêineres
+  - Criando duas novas redes personalizadas
+    - docker network create frontend -> Receber requisições HTTP dos contêineres MVC
+    - docker network create backed   -> Consultas SQL entre contêineres MVC e MySql
+  - docker network ls
 
