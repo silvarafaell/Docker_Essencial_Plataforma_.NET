@@ -160,4 +160,6 @@ host
  - docker network create --driver <nome> <nome_da_rede>
  - docker network create --driver bridge rede alpine
  - docker container run -it --name alp1 --network redealpine alpine         - Criar container e associar a rede
+- Escalando a aplicação MVC usando redes
+  - docker container run -d --name appmvc2 -p 3500:00 -e DBHOST=172.17.0.2 produtosmvc/app:2.0
 
