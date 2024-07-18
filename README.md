@@ -151,5 +151,9 @@ host
 - Por padrão o Docker é disponibilizado com 3 redes que oferecem configurações especificas para gerenciar o trafego de dados
 - docker network ls
 - docker network inspect bridge
-
+- Usando redes virtuais
+  - docker container ps -a
+  - docker container run -it --name alp1 alpine
+    - hostname -i
+  - docker network create --driver <nome> <nome_da_rede>
 
