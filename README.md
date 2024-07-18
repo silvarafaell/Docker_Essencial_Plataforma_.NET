@@ -156,4 +156,8 @@ host
   - docker container run -it --name alp1 alpine
     - hostname -i
   - docker network create --driver <nome> <nome_da_rede>
+- Criando redes Customizadas no Docker
+ - docker network create --driver <nome> <nome_da_rede>
+ - docker network create --driver bridge rede alpine
+ - docker container run -it --name alp1 --network redealpine alpine         - Criar container e associar a rede
 
