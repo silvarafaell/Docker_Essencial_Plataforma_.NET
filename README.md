@@ -147,4 +147,9 @@ host
   - criação do arquivo de contexto
   - criação classe Repository
 
+### Networks(Redes)
+- Por padrão o Docker é disponibilizado com 3 redes que oferecem configurações especificas para gerenciar o trafego de dados
+- docker network ls
+- docker network inspect bridge
+
 
