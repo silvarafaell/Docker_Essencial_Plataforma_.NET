@@ -174,3 +174,8 @@ host
     - docker network create backed   -> Consultas SQL entre contêineres MVC e MySql
   - docker network ls
 
+### Docker Compose
+- Introdução ao Docker-Compose
+  - Docker Compose que é uma ferramenta usada para descrever aplicações complexas e gerenciar os contêineres, as redes e os volumes que essas aplicações exigem para funcionar
+  - Ele Simplifica o processo de configuração e execução de aplicativos para que você não precise digitar os comandos complexos, o que pode levar a erros de configuração
+
