@@ -178,4 +178,11 @@ host
 - Introdução ao Docker-Compose
   - Docker Compose que é uma ferramenta usada para descrever aplicações complexas e gerenciar os contêineres, as redes e os volumes que essas aplicações exigem para funcionar
   - Ele Simplifica o processo de configuração e execução de aplicativos para que você não precise digitar os comandos complexos, o que pode levar a erros de configuração
+- Usando o Docker Compose
+  - Docker Compose é o orquestrador de containers da Docker
+  - 1 Definir o ambiente necessário para a sua aplicação funcionar utilizando um Dockerfile
+  - 2 Criar o arquivo de composição .yml definindo quais serviços são essenciais para a sua aplicação e o relacionamento entre eles
+  - 3 Processar o arquivo de composição executando o comando docker-compose para que seu ambiente seja criado e configurado
+  - criando na raiz do projeto pelo o vscode docker-compose.yml
+  - docker-compose -f docker-compose.yml build     processa o arquivo
 
