@@ -185,4 +185,15 @@ host
   - 3 Processar o arquivo de composição executando o comando docker-compose para que seu ambiente seja criado e configurado
   - criando na raiz do projeto pelo o vscode docker-compose.yml
   - docker-compose -f docker-compose.yml build     processa o arquivo
-
+- Criando o arquivo de composição
+  - services: Descreve os serviços usados para criar contêineres
+  - mysql - Indica o inicio da descrição de um serviço que vai criar o contêiner chamado mysql
+  - image: Define a imagem Docker que sera usada para criar o contêiner
+  - volumes: Especifica os volumes usados pelos contêineres e os diretórios envolvidos
+  - networks - Define as redes com as quais o contêiner vai se conectar
+  - environment - Define as variáveis de ambientes que serão usadas quando o contêiner for criado
+  - docker-compose build        - verifica sintase
+  - docker-compose up           - processa o arquivo e inicializa
+  - docker container ps -a      - criou o container
+  - docker network ls           - criou a network
+  - docker volume ls            - criou o volume
