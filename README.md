@@ -197,3 +197,6 @@ host
   - docker container ps -a      - criou o container
   - docker network ls           - criou a network
   - docker volume ls            - criou o volume
+- Ajustando a aplicação MVC: Usando script SQL
+  - Execução script SQL para criação do banco de dados, sera criado na raiz do projeto e será usado no serviço para a criação do container SQL
+  - docker-compose down -v  - exclui tudo o que o docker compose criou
