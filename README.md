@@ -209,4 +209,10 @@ host
   - docker-compose-dev.yml
   - docker-compose -f docker-compose-dev.yml -p dev build   - criar a imagem
   - docker-compose -f docker-compose-dev.yml -p dev up mvc  - processar o arquivo de composição
+- Otimizando o arquivo Dockerfile
+  - docker images
+  - . code
+  - Docker multi-stage build - Otimizar Dockerfile, reduzindo o tamanho das imagens
+  - Multi stage build - permite usar quantos comandos FROM precisarmos
+  - Cada comando FROM é um novo estagio que substitui o anterior / como se fosse uma nova imagem independente e isolada
 
