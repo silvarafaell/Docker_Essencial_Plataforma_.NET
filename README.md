@@ -200,3 +200,13 @@ host
 - Ajustando a aplicação MVC: Usando script SQL
   - Execução script SQL para criação do banco de dados, sera criado na raiz do projeto e será usado no serviço para a criação do container SQL
   - docker-compose down -v  - exclui tudo o que o docker compose criou
+
+### Desenvolvimento na plataforma .NET
+- Fazendo o Deploy no Contêiner
+  - docker image pull Microsoft/dotnet:2.1-sdk
+  - definir o arquivo Dockerfile
+  - Dockerfile.dev
+  - docker-compose-dev.yml
+  - docker-compose -f docker-compose-dev.yml -p dev build   - criar a imagem
+  - docker-compose -f docker-compose-dev.yml -p dev up mvc  - processar o arquivo de composição
+
