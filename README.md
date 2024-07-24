@@ -215,4 +215,8 @@ host
   - Docker multi-stage build - Otimizar Dockerfile, reduzindo o tamanho das imagens
   - Multi stage build - permite usar quantos comandos FROM precisarmos
   - Cada comando FROM é um novo estagio que substitui o anterior / como se fosse uma nova imagem independente e isolada
+- Aplicando o recurso: multi-stage
+  - criação do arquivo dockerfile.multi
+  - criação do arquivo docker-compose-multi.yml
+  - docker-compose -f docker-compose-multi.yml -p multi up mvc
 
