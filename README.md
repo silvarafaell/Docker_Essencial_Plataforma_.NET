@@ -226,4 +226,8 @@ host
   - Permite experiencia semelhando a do Linux
   - Temos um desempenho de disco proximo a uma maquina Linux
   - WSL2 Subsistema Windows para Linux é um módulo do sistema operacional Windows 10, que visa disponibilizar um ambiente Linux compatível no sistema da Microsoft, de forma que se possa executar programas nativos dos sistemas GNU/Linux dentro do proprio Windows
-
+- Instalação do Docker Desktop for Windows
+  - Hiper-V  Containers Windows devem ser habilitados
+  - Ou Ativar o recurso WSL 2 no Windows
+  - Baixar e instalar o pacote de atualização do Kernel Linux
+  - Windows 10 ou Superior
