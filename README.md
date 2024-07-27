@@ -231,3 +231,17 @@ host
   - Ou Ativar o recurso WSL 2 no Windows
   - Baixar e instalar o pacote de atualização do Kernel Linux
   - Windows 10 ou Superior
+- Suporte ao Docker no Visual Studio
+  - Projetos ASP.NET , ASP.NET Core, Console.NET Core e .NET Framework
+  - Para novos projetos
+    - Selecionar o Enable Docker Suport ao criar um novo projeto
+  - Para projetos já existentes
+    - Selecione Add -> Docker Suport para o projeto existente
+  - Arquivos adicionados ao projeto quando do suporte do Docker
+    - um arquivo Dockerfile
+    - um arquivo .dockerignore
+    - uma referencia
+  - Arquivo adicionados quando da orquestração de contêineres
+    - Arquivo DockerFile
+    - Arquivo .dockerignore
+    - Arquivo docker-compose.yml
