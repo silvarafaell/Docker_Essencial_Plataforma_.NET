@@ -220,3 +220,10 @@ host
   - criação do arquivo docker-compose-multi.yml
   - docker-compose -f docker-compose-multi.yml -p multi up mvc
 
+### Docker Desktop for Windows
+- Introdução
+  - O Docker Desktop (com WSL 2) é uma solução para executar containers Linux nos sistemas Windows e macOS
+  - Permite experiencia semelhando a do Linux
+  - Temos um desempenho de disco proximo a uma maquina Linux
+  - WSL2 Subsistema Windows para Linux é um módulo do sistema operacional Windows 10, que visa disponibilizar um ambiente Linux compatível no sistema da Microsoft, de forma que se possa executar programas nativos dos sistemas GNU/Linux dentro do proprio Windows
+
