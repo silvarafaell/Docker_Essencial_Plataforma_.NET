@@ -253,4 +253,4 @@ host
       - docker-compose.yml
       - docker-compose.override.yml
 - Orquestrando os contêiners da APIe do MongoDB: acessando dados no mongo
-  - docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
+  - docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d     - executando o docker-compose sem precisar executar o visual studio
