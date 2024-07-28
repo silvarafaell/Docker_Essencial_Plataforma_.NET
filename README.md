@@ -245,3 +245,10 @@ host
     - Arquivo DockerFile
     - Arquivo .dockerignore
     - Arquivo docker-compose.yml
+- Orquestrando os contêiners: Configurando os arquivos docker-compose no projeto
+  - Opção Container Orchestrator Support
+    - Criar o arquivo DockerFile no projeto
+    - Criar no projeto o docker-compose (docker-compose.dcproj)
+      - dockerignore
+      - docker-compose.yml
+      - docker-compose.override.yml
