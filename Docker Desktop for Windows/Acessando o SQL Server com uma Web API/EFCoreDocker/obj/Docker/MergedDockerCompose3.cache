@@ -1,0 +1,48 @@
+services:
+  EFCoreSqlServer:
+    build:
+      context: C:\Projetos\Docker_Essencial_Plataforma_.NET\Docker Desktop for Windows\Acessando
+        o SQL Server com uma Web API\EFCoreDocker
+      dockerfile: EFCoreSqlServer/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: EFCoreSqlServer
+    container_name: EFCoreSqlServer
+    depends_on:
+      sqlserver:
+        condition: service_started
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: productswebapi
+    labels:
+      com.microsoft.visual-studio.project-name: EFCoreSqlServer
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages --additionalProbingPath
+        /root/.nuget/fallbackpackages2 --additionalProbingPath /root/.nuget/fallbackpackages3  "/app/EFCoreSqlServer.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - published: 32033
+      target: 80
+    tty: true
+    volumes:
+    - C:\Users\Macoratti\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\Rafael\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Rafael\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+  sqlserver:
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: Numsey#2021
+    expose:
+    - '1433'
+    hostname: sqlserver
+    image: microsoft/mssql-server-linux:2017-latest
+    ports:
+    - published: 11433
+      target: 1433
+    volumes:
+    - c:\dados\volumes\mssql:/var/opt/mssql3:rw
+version: '3.4'
