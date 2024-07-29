@@ -254,3 +254,11 @@ host
       - docker-compose.override.yml
 - Orquestrando os contêiners da APIe do MongoDB: acessando dados no mongo
   - docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d     - executando o docker-compose sem precisar executar o visual studio
+- Acessando o SQL SERVEr com uma Web API
+  - Criar um Web API ASP .NET Core para gerenciar produtos
+  - Realizar o CRUD básico usando o EF Core acessando o SQL SERVER
+  - Criar o Dockerfile e a imagem para a Web API
+  - Criar o contêiner para a Web API
+  - Criar o contêiner para o SQL SERVER (realizar operações)
+  - Orquestrar os contêineres criados usando o Docker-Compose
+  - Testar o acesso da API ao SQL Server usando o Postman
