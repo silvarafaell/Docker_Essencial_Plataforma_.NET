@@ -264,3 +264,13 @@ host
   - Testar o acesso da API ao SQL Server usando o Postman
 
 ### Docker Desktop for Windows II
+- Criando uma Web API e acessando o MySQL
+  - Criar o projeto no Visual Studio
+  - Usar o template ASP .NET Core Web API
+  - Incluir as referencias aos pacotes do Entity Framework Core
+  - Incluir a referencia ao pacote do provedor Pomelo para o MySQL
+  - Criar a classe Product na pasta Entities
+  - Criar o arquivo de contexto ApplicationDbContext na pasta DataContext
+  - Criar o Controlador ProductsController na pasta Controllers
+  - Definir a string de conexão no arquivo appsettings.json
+  - Registrar o serviço do contexto, o provedor e obter a string de conexão
