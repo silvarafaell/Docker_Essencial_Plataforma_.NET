@@ -1,0 +1,55 @@
+services:
+  apimysqldocker:
+    build:
+      context: C:\Projetos\Docker_Essencial_Plataforma_.NET\Docker Desktop for Windows
+        II\ApiMySqlDocker
+      dockerfile: ApiMySqlDocker/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: ApiMySqlDocker
+    container_name: products.api
+    depends_on:
+      database:
+        condition: service_started
+    entrypoint: tail -f /dev/null
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: apimysqldocker
+    labels:
+      com.microsoft.visual-studio.project-name: ApiMySqlDocker
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages
+        --additionalProbingPath /root/.nuget/fallbackpackages --additionalProbingPath
+        /root/.nuget/fallbackpackages2 --additionalProbingPath /root/.nuget/fallbackpackages3  "/app/ApiMySqlDocker.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    ports:
+    - published: 5000
+      target: 80
+    - target: 80
+    restart: always
+    tty: true
+    volumes:
+    - C:\Users\Macoratti\vsdbg\vs2017u5:/remote_debugger:rw
+    - C:\Users\Rafael\AppData\Roaming\ASP.NET\Https:/root/.aspnet/https:ro
+    - C:\Users\Rafael\AppData\Roaming\Microsoft\UserSecrets:/root/.microsoft/usersecrets:ro
+  database:
+    container_name: mysqldb
+    environment:
+      MYSQL_DATABASE: productsdb
+      MYSQL_PASSWORD: numsey
+      MYSQL_RANDOM_ROOT_PASSWORD: 1
+      MYSQL_USER: mac
+    expose:
+    - '3306'
+    image: mysql
+    ports:
+    - published: 3306
+      target: 3306
+    restart: always
+    volumes:
+    - dbmysql-volume:/var/lib/mysql:rw
+version: '3.4'
+volumes:
+  dbmysql-volume: {}
