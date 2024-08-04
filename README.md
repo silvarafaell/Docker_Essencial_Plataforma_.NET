@@ -262,3 +262,5 @@ host
   - Criar o contêiner para o SQL SERVER (realizar operações)
   - Orquestrar os contêineres criados usando o Docker-Compose
   - Testar o acesso da API ao SQL Server usando o Postman
+
+### Docker Desktop for Windows II
