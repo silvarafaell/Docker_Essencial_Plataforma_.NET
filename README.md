@@ -274,3 +274,5 @@ host
   - Criar o Controlador ProductsController na pasta Controllers
   - Definir a string de conexão no arquivo appsettings.json
   - Registrar o serviço do contexto, o provedor e obter a string de conexão
+    
+### Docker-Containerizando aplicações Blazor(.NET8)
