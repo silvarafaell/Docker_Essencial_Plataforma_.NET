@@ -276,3 +276,6 @@ host
   - Registrar o serviço do contexto, o provedor e obter a string de conexão
     
 ### Docker-Containerizando aplicações Blazor(.NET8)
+- Aplicação Blazor > DockerFile > Imagem > Contêiner da aplicação
+- docker build -t blazorapp .
+- docker run -d -p 8100:8080 --name blazorappcont blazorapp    - Cria o Container
