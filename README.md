@@ -279,3 +279,10 @@ host
 - Aplicação Blazor > DockerFile > Imagem > Contêiner da aplicação
 - docker build -t blazorapp .
 - docker run -d -p 8100:8080 --name blazorappcont blazorapp    - Cria o Container
+- Blazor Server e SQL Server
+  - Criar uma aplicação Blazor no .NET 8 e gerar os componentes Blazor de forma automática usando o Scaffolding para realizar o CRUD
+  - Criar uma imagem da aplicação Blazor e a seguir criar um contêiner para esta aplicação
+  - Criar um contêiner a partir da imagem oficial do SQL Server
+  - Acessar os dados do SQL SERVER no contêiner a partir do contêiner da aplicação Blazor
+  - Template Blazor Web App
+  - Entity framework Core 8
