@@ -286,3 +286,6 @@ host
   - Acessar os dados do SQL SERVER no contêiner a partir do contêiner da aplicação Blazor
   - Template Blazor Web App
   - Entity framework Core 8
+- Blazor WebAssembly
+  - docker build -t blazorwasm -- cria a imagem
+  - docker run -d -p 8200:8080 --name blazorcont blazorwasm -- cria o conteiner
