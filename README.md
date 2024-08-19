@@ -289,3 +289,15 @@ host
 - Blazor WebAssembly
   - docker build -t blazorwasm -- cria a imagem
   - docker run -d -p 8200:8080 --name blazorcont blazorwasm -- cria o conteiner
+
+### Criando Microserviços com Docker e Visual Studio
+-  Microserviços: Conceitos
+-  Criação de Web APIs ASP .NET Core
+-  Criação de contêiner com MongoDB
+-  Redis: Conceitos
+-  Criação de contêiner com Redis
+-  Criação de contêiner com PostgreSQL usando o Dapper
+-  Grpc: Conceitos
+-  Criando contêiner com o Grpc
+-  Usando o Docker Compose
+
