@@ -300,4 +300,8 @@ host
 -  Grpc: Conceitos
 -  Criando contêiner com o Grpc
 -  Usando o Docker Compose
+-  NET - Criando Microserviços fluxo básico
+  - NET Core versão 5
+  - Modelo arquitetural de aplicações distribuídos, independente de outro sistema
+  - docker --version
 
