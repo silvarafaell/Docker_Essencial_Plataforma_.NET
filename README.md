@@ -315,4 +315,6 @@ host
     - Conteinerizar a API com o MongoDB usando o Docker Compose
 - NET - Criando Microserviços API Catalogo com MongoDB - II
   - Criação do Repository
+- Criando Microserviços API Catalogo com MongoDB - IV
+  - Criação do Controller
 
