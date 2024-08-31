@@ -304,4 +304,13 @@ host
   - NET Core versão 5
   - Modelo arquitetural de aplicações distribuídos, independente de outro sistema
   - docker --version
+- NET - Criando Microserviços API Catalogo com MongoDB - I
+  - Criar uma API para um gerenciar produtos como um microserviço
+  - Cenário
+    - Criar uma Asp.NET Core Web Api
+    - Seguindo o estilo REST (API REST)
+    - Realizar consultas e operações CRUD em produtos
+    - Usar banco de dados NoSQL MongoDB em um contêiner Docker
+    - Usar padrão repositório
+    - Conteinerizar a API com o MongoDB usando o Docker Compose
 
