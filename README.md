@@ -313,4 +313,6 @@ host
     - Usar banco de dados NoSQL MongoDB em um contêiner Docker
     - Usar padrão repositório
     - Conteinerizar a API com o MongoDB usando o Docker Compose
+- NET - Criando Microserviços API Catalogo com MongoDB - II
+  - Criação do Repository
 
