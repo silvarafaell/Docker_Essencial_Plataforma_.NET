@@ -317,4 +317,8 @@ host
   - Criação do Repository
 - Criando Microserviços API Catalogo com MongoDB - IV
   - Criação do Controller
+- Criando Microserviços API Catalogo com MongoDB - V
+  - Criação da imagem e container(MongoDB e CatalogAPI)
+  - Baixar imagem do Mongo no Docker Hub
+  - Criar e executar o contêiner mongo
 
