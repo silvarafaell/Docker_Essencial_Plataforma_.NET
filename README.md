@@ -321,4 +321,8 @@ host
   - Criação da imagem e container(MongoDB e CatalogAPI)
   - Baixar imagem do Mongo no Docker Hub
   - Criar e executar o contêiner mongo
+- NET - Criando Microserviços API Catalogo com MongoDB - VI
+  - Orquestração da API e MongoDB com o Docker-compose
+  - Integração Docker com Visual Studio(Opção Container Orchestratror Support)
+  - docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
 
