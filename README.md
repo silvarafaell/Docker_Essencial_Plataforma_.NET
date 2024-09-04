@@ -325,4 +325,8 @@ host
   - Orquestração da API e MongoDB com o Docker-compose
   - Integração Docker com Visual Studio(Opção Container Orchestratror Support)
   - docker-compose -f docker-compose.yml -f docker-compose.override.yml up -d
-
+- NET - Criando Microserviços API Basket com Redis - VI
+  - Criação de uma API
+  - Criação container Redis
+  - docker-compose
+  - docker run --name local-redis -p 6379:6379 -d redis
