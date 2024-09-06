@@ -330,3 +330,7 @@ host
   - Criação container Redis
   - docker-compose
   - docker run --name local-redis -p 6379:6379 -d redis
+- NET - Criando Microserviços API Basket com Redis - VII
+   - Configuração Redis com API
+   - Package Microsoft.Extensions.Caching.StackExangeRedis
+   - Implementação da cesta
