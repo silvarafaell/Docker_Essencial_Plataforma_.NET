@@ -339,4 +339,8 @@ host
   - Usando  Dapper
   - Padrão Repository
   - install-Package Npgsql
+- NET - Criando Microserviços API Discount com PostgreSQL - X
+  - Criação Contêiner PostGrelSQL
+  - Criação dockerfile da API
+  - docker-compose -f docker-compose.yml -f docker
   
