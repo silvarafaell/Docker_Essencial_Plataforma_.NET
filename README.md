@@ -343,4 +343,8 @@ host
   - Criação Contêiner PostGrelSQL
   - Criação dockerfile da API
   - docker-compose -f docker-compose.yml -f docker
+- NET - Criando Microserviços API Discount com gRPC - XI
+  - gRPC é uma arquitetura RPC de código aberto criado pelo Google para obter uma comunicação de alta velocidade entre microserviços que permite a integração de serviços programados em diferentes linguagens
+  - usa HTTP2
+  - transmissão de mensagens muitas vezes mais rápidas
   
