@@ -334,3 +334,9 @@ host
    - Configuração Redis com API
    - Package Microsoft.Extensions.Caching.StackExangeRedis
    - Implementação da cesta
+- NET - Criando Microserviços API discount com PostgreSQL - IV
+  - API de Desconto
+  - Usando  Dapper
+  - Padrão Repository
+  - install-Package Npgsql
+  
