@@ -347,4 +347,6 @@ host
   - gRPC é uma arquitetura RPC de código aberto criado pelo Google para obter uma comunicação de alta velocidade entre microserviços que permite a integração de serviços programados em diferentes linguagens
   - usa HTTP2
   - transmissão de mensagens muitas vezes mais rápidas
+- NET - Criando Microserviços API discount com gRPC - XII
+  - Instalação pacote PostgreSQL, Npgsql e Dapper  
   
