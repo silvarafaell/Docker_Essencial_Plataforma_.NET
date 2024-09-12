@@ -348,5 +348,7 @@ host
   - usa HTTP2
   - transmissão de mensagens muitas vezes mais rápidas
 - NET - Criando Microserviços API discount com gRPC - XII
-  - Instalação pacote PostgreSQL, Npgsql e Dapper  
+  - Instalação pacote PostgreSQL, Npgsql e Dapper
+- NET - Criando Microserviços API Discount com gRPC - XIII
+  - O serviço gRPC é um conjunto de métodos (classe) que podem ser descrito com seus parâmetros de entradas e saidas
   
