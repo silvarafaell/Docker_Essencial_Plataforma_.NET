@@ -351,4 +351,11 @@ host
   - Instalação pacote PostgreSQL, Npgsql e Dapper
 - NET - Criando Microserviços API Discount com gRPC - XIII
   - O serviço gRPC é um conjunto de métodos (classe) que podem ser descrito com seus parâmetros de entradas e saidas
+
+### Bonus - Kubentes - Conceitos básicos 
+- Apresentando Kubernetes:Conceitos
+  - Kubenetes conhecido como K8s
+  - Realiza a implantação escalonamento, gerenciamento e orquestração de containers
+  - trabalha com qualquer container
+  - Pod menor estrutura do kubernetes
   
